@@ -1,0 +1,35 @@
+.texto {
+    text-align: center;
+}
+
+
+
+.galeria {
+    width: 100%;
+    align-items: center;
+
+    .imagen {
+        display: inline-block;
+    }
+
+    .imagen img {
+    height: 400px; 
+    }
+}
+
+.home-caja-dos {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.home-caja-cuatro {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+
+.comentarios h1 {
+    text-align: center;
+}
+

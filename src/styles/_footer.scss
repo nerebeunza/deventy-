@@ -1,0 +1,28 @@
+
+.footer-texto {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+
+    .footer-navegacion {
+        margin-left: 80px;
+
+        a {
+            font-size: 16px;
+            margin-right: 30px;
+        }
+    }
+
+}
+
+hr {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.footer-dominio {
+    height: 40px;
+    align-items: center;
+    text-align: center;
+}

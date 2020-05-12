@@ -1,0 +1,38 @@
+@font-face {
+    font-family: AGaramondPro;
+    src: url(../fonts/AGaramondPro-Bold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: AGaramondPro;
+    src: url(../fonts/AGaramondPro-Regular.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: var(--tipo);
+    color: var(--color-tipo-body);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: var(--tipo);
+    color: var(--color-tipo);
+}
+
+h2 {
+    font-size: 38px;
+    font-family: var(--tipo);
+    color: var(--color-tipo);
+}
+
+a {
+    font-family: var(--tipo);
+    color: var(--color-tipo);
+}
+

@@ -1,3 +1,73 @@
+
+
+  <div class="footer">
+    
+    <hr class="linea-superior">
+
+    <div class="footer-texto">
+      <div class="footer-logo">LA CROQUETERIE</div>
+      <div class="footer-navegacion">
+        <a>Contacto</a>
+        <a>Guía de dietas especiales</a>
+        <a>Política de Privacidad</a>
+        <a>Terminos y Condiciones</a>
+      </div>
+
+      <div class="footer-social">
+        <a>
+          <img class="social" src="">
+        </a>
+        <a>
+          <img class="social" src="">
+        </a>
+        <a>
+          <img class="social" src="">
+        </a>
+      </div>
+
+    </div>
+
+    <hr class="linea-inferior">
+
+    <div class="footer-dominio">®LA CROQUETERIE</div>
+  </div> <!--fin .footer-->
+  
+
   <script src="/scripts/index.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+  <script type="text/javascript">
+      $('.galeria').slick({
+      centerMode: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [
+          {
+          breakpoint: 768,
+          settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 3
+          }
+          },
+          {
+          breakpoint: 480,
+          settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+          }
+          }
+      ]
+      });
+
+  </script>
+
+
 </body>
 </html>

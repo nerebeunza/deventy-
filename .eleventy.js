@@ -3,6 +3,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/slick');
+  eleventyConfig.addPassthroughCopy('src/fonts');
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   return {

@@ -1,0 +1,20 @@
+html {
+    
+    /*Font family*/
+    --tipo: "AGaramondPro";
+    --tipo-book: 400;
+    --tipo-bold: 700;
+   
+
+    /* Colores */
+    --fondo: #f1f1f1;
+    --color-tipo: #373A47 ;
+    --color-tipo-body: #838E96;
+    --recuadro: white;
+    
+    
+    /* Espaciados */ 
+    --margin-left: 128px;
+    --margin-right: 128px;
+    
+    }

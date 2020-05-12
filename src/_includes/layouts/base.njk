@@ -1,9 +1,14 @@
 {% include "./header.njk" %}
 
+  
 
-  {% include "./nav.njk" %}
+  
 
   <div class="container">
+    <div class="cabecera" style="background: url({{ imagenCabecera }}) no-repeat; background-size: cover;">
+    {% include "./nav.njk" %}
+      <h1> {{ tituloCabecera }} <h1>
+    </div>
 
     {{ content | safe }}
     
