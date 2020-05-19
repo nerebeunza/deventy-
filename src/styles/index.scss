@@ -7,6 +7,8 @@
 @import '_carta.scss';
 @import '_localizacion.scss';
 @import '_historia.scss';
+@import '_packs.scss';
+@import '_slick.scss';
 
 
 
@@ -23,7 +25,6 @@ body {
   width: 100%;
 }
 
-.slick-center {
-  color: hotpink;
-  transform: scale(1.5);
+img {
+  max-width: 100%;
 }

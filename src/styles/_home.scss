@@ -5,16 +5,18 @@
 
 
 .galeria {
-    width: 100%;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 
     .imagen {
         display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-height: 100%;
+     
+        
     }
 
-    .imagen img {
-    height: 400px; 
-    }
 }
 
 .home-caja-dos {
@@ -29,7 +31,25 @@
 
 
 
-.comentarios h1 {
-    text-align: center;
+.comentarios {
+
+    h1 {
+        text-align: center;
+    }
+
+    .comentario-caja {
+        background-color: white;
+        max-height: 300px;
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+       
+
+        p {
+            color: var(--color-tipo);
+        }
+    }
 }
 

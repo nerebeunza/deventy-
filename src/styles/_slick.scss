@@ -1,0 +1,46 @@
+
+.slick-current + .slick-active {
+    transform: scale(2);
+  }
+  
+  .slick-list {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+   
+  
+  }
+  
+  .slick-slide {
+    transition: all.3s;
+  
+  }
+
+ 
+ .comentarios-galeria {
+    .slick-current + .slick-active {
+        transform: scale(1.2);
+      }
+ } 
+
+
+
+.slick-next {
+    right: 0px !important;
+    background-color: transparent !important;
+    width: 100px !important;
+    height: 250px !important;
+
+    :before {
+        display: none !important;
+    }
+
+    ::after {
+        display: none !important;
+    }
+
+}
+
+.slick-prev {
+    left: 30px !important;
+    position: absolute !important;
+}
