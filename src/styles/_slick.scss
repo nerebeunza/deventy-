@@ -39,7 +39,6 @@
 
 /*HOME*/
 .galeria-home {
-
   .slick-current + .slick-active {
       transform: scale(2);
   }
@@ -147,4 +146,33 @@
     }
   } 
 
+}
+
+@media (max-width: 480px) {
+  .galeria-home {
+    .slick-current + .slick-active {
+        transform: scale(1);
+    }
+  }
+  .comentarios-galeria {
+    .slick-current + .slick-active {
+        transform: scale(1);
+      }
+    }
+    .galeria-carta {
+      .slick-current + .slick-active {
+        transform: scale(1);
+      } 
+    }
+  .galeria-packs {
+    .slick-current + .slick-active {
+      transform: scale(1);
+    }
+  }
+  .galeria-historia {
+    .slick-current + .slick-active {
+      transform: scale(1);
+    }
+  }
+    
 }
