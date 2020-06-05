@@ -1,5 +1,36 @@
-.numero {
-    font-weight: bold;
-    margin-top: 5px;
+
+.galeria-packs {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    .imagen {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-height: 100%;
+     
+        
+    }
+
+    .galeria-textos {
+        p {
+        color: var(--color-tipo);
+        margin-bottom: 5px;
+        }
+
+        .numero {
+            font-weight: bold;
+        }
+        
+    }
+
 }
 
+
+
+@media (max-width: 700px){
+    .galeria-textos {
+        display: none;
+    }
+}    

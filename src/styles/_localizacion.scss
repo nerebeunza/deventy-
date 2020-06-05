@@ -13,3 +13,28 @@
     }
 
 }
+
+.mapa {
+    background: url(../images/localizacion/localizacion-mapa.png) no-repeat;
+    background-size: cover; 
+    min-height: 550px;
+    background-position: center;
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+    .localizacion-texto{
+        .horario {
+            margin-right: 75px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .localizacion-texto {
+        display: block;
+
+        .horario {
+            margin-right: 0;
+        }
+    }
+}  

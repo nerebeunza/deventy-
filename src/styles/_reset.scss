@@ -3,3 +3,12 @@
 *:before {
   box-sizing: border-box;
 }
+
+
+@media (max-width: 500px) {
+  *,
+  :after,
+  :before {
+    box-sizing: none !important;
+  }
+}

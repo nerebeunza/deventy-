@@ -1,0 +1,24 @@
+{% include "./header.njk" %}
+
+  
+
+  
+
+  <div class="container">
+    <div class="cabecera" style="background: url({{ imagenCabecera }}) no-repeat; background-size: cover;">
+        <div class="navegación"> 
+            {% include "./nav.njk" %}
+        </div>
+      
+        <img class="cabecera-titulo" src="{{ tituloCabecera }}">
+        <div class="hero">Lo más parecido a las croquetas<br>
+         de tu abuela!
+        </div>
+    </div>
+
+    {{ content | safe }}
+    
+  </div>
+
+
+{% include "./footer.njk" %}

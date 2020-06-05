@@ -1,0 +1,114 @@
+.flecha {
+    width: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.barra-superior {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.variedad-imagenes {
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+    .fila-uno, .fila-dos {
+        display: flex;
+        margin-bottom: 50px;
+    }
+}
+
+
+.variedad-info p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.variedad-estrellas, .variedad-alergenos, .cantidad {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.variedad-estrellas {
+    margin-bottom: 10px;
+}
+
+.variedad-alergenos {
+    margin-bottom: 25px;
+}
+
+.espacio {
+    padding-right: 20px;
+}
+
+.barra-superior-2 {
+    display: none;
+}
+
+.barra-inferior-2 {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    .variedad-imagenes {
+        .fila-uno, .fila-dos {
+            display: block;
+
+            .variedad-img {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+        }
+    }
+
+    .barra-superior {
+        display: none;
+    }
+
+    .barra-inferior {
+        display: none;
+    }
+
+    .barra-superior-2 {
+        display: block;
+        img {
+            margin-bottom: 20px;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+    }
+
+    .barra-inferior-2 {
+        display: block;
+        width: 100%;
+        
+        img {
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }    
+    }
+
+    .espacio {
+        padding-right: 0px;
+    }
+
+}    
+

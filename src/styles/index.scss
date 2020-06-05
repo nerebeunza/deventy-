@@ -8,6 +8,7 @@
 @import '_localizacion.scss';
 @import '_historia.scss';
 @import '_packs.scss';
+@import '_variedad.scss';
 @import '_slick.scss';
 
 
@@ -18,6 +19,11 @@ $var: white;
 body {
   background-color: var(--fondo);
   color: var(--color-tipo);
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 .cabecera {
@@ -25,6 +31,68 @@ body {
   width: 100%;
 }
 
-img {
-  max-width: 100%;
+.cabecera-titulo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+
 }
+
+
+@media (min-width: 950px) and (max-width: 1050px){
+  .cabecera-titulo {
+    padding-top: 120px;
+  }
+
+}
+
+@media (min-width: 850px) and (max-width: 949px){
+  .cabecera-titulo {
+    padding-top: 140px;
+  }
+
+}
+
+@media (min-width: 750px) and (max-width: 849px){
+  .cabecera-titulo {
+    padding-top: 160px;
+  }
+
+}
+
+@media (min-width: 650px) and (max-width: 749px){
+  .cabecera-titulo {
+    padding-top: 180px;
+  }
+
+}
+
+@media (min-width: 550px) and (max-width: 649px){
+  .cabecera-titulo {
+    padding-top: 180px;
+  }
+
+}
+
+@media (min-width: 450px) and (max-width: 549px){
+  .cabecera-titulo {
+    padding-top: 200px;
+  }
+
+}
+
+@media (min-width: 400px) and (max-width: 449px){
+  .cabecera-titulo {
+    padding-top: 210px;
+  }
+
+}
+
+@media (min-width: 300px) and (max-width: 399px){
+  .cabecera-titulo {
+    padding-top: 250px;
+  }
+
+}
+

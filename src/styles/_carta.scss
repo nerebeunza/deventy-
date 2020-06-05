@@ -1,3 +1,67 @@
+.galeria-carta {
+    margin-left: auto;
+    margin-right: auto;
+
+    .imagen {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-height: 100%;   
+    }
+
+}
+
 .carta-caja-dos {
     text-align: center;
+}
+
+.descripcion {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.propiedades-texto {
+    p {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+}
+
+.carta-alergenos {
+    margin-top: 80px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (min-width: 850px) and (max-width: 970px){
+    .descripcion {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    .propiedades-texto p {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}   
+
+@media (max-width: 849px){
+    .descripcion {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .propiedades-texto p {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .carta-alergenos {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-top: 40px;
+    }
 }

@@ -7,9 +7,11 @@
 
     .footer-navegacion {
         margin-left: 80px;
+        margin-right: 40px;
+
 
         a {
-            font-size: 16px;
+            font-size: 13px;
             margin-right: 30px;
         }
     }
@@ -22,7 +24,78 @@ hr {
 }
 
 .footer-dominio {
+    font-size: 13px;
     height: 40px;
     align-items: center;
     text-align: center;
+    margin-top: 20px;
 }
+
+.social {
+    margin-left: 10px;
+}
+
+@media (min-width: 850px) and (max-width: 950px){
+    .footer-texto {
+        .footer-navegacion {
+            margin-left: 60px;
+            margin-right: 20px;
+
+            a {
+                margin-right: 15px;
+            }
+
+        }
+    }
+}    
+
+@media (min-width: 750px) and (max-width: 849px){
+    .footer-texto {
+        .footer-navegacion {
+            margin-left: 50px;
+            margin-right: 10px;
+
+            a {
+                margin-right: 10px;
+            }
+
+        }
+
+        .social {
+            display: block;
+        }
+    }
+
+}    
+
+@media (max-width: 749px) {
+    .footer-texto {
+        display: block;
+        text-align: center;
+        height: 200px;
+    
+        .footer-logo {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer-navegacion {
+            display: block;
+            text-align: center;
+            
+            a {
+                display: block;
+                margin-bottom: 10px;
+            }
+        
+        }  
+        
+        .footer-social {
+            margin-top: 20px;
+        }
+    
+    }
+
+    
+
+}    

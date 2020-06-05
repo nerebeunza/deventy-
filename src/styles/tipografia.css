@@ -36,3 +36,14 @@ a {
     color: var(--color-tipo);
 }
 
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+}

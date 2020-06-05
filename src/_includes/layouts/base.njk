@@ -6,8 +6,15 @@
 
   <div class="container">
     <div class="cabecera" style="background: url({{ imagenCabecera }}) no-repeat; background-size: cover;">
-    {% include "./nav.njk" %}
-      <h1> {{ tituloCabecera }} <h1>
+        <div class="navegacion">
+          <a href="/">
+            <img class="cabecera-titulo" src="../images/home/home-titulo.png">
+          <a>  
+            {% include "./nav.njk" %}
+        </div>
+      
+        <img class="cabecera-titulo" src="{{ tituloCabecera }}">
+      
     </div>
 
     {{ content | safe }}

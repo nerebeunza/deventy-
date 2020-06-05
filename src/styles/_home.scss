@@ -1,10 +1,21 @@
-.texto {
+.hero {
+    width: 100%;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+.texto {
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
 
-
-.galeria {
+.galeria-home {
     margin-left: auto;
     margin-right: auto;
 
@@ -12,9 +23,7 @@
         display: inline-block;
         margin-left: 20px;
         margin-right: 20px;
-        max-height: 100%;
-     
-        
+        max-height: 100%;  
     }
 
 }
@@ -39,17 +48,83 @@
 
     .comentario-caja {
         background-color: white;
-        max-height: 300px;
         text-align: center;
         padding-top: 20px;
         padding-right: 60px;
         padding-bottom: 20px;
         padding-left: 60px;
+        margin-left: 20px;
+        margin-right: 20px;
        
 
         p {
             color: var(--color-tipo);
         }
+
+        .nombre {
+            font-weight: bold;
+        }
     }
 }
 
+.comentario-rating {
+    max-width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 850px) and (max-width: 970px){
+    .texto {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}    
+
+
+@media (max-width: 849px){
+    .texto {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .home-caja-dos {
+        margin-bottom: 20px;
+    }
+
+    .home-caja-cuatro {
+        margin-bottom: 20px;
+    }
+
+    .comentarios {
+        margin-bottom: 40px;
+
+        .comentario-caja {
+            padding-right: 40px;
+            padding-left: 40px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 0px;
+        }
+    }
+
+
+} 
+
+@media (max-width: 500px){
+    .comentarios {
+        margin-bottom: 70px;
+
+        h1 {
+            margin-top: 50px;
+            margin-bottom: 0;
+        }
+    }
+
+    .hero {
+        font-size: 16px;
+    }
+}

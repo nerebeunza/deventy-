@@ -1,3 +1,7 @@
+.nav-2 {
+    display: none;
+}
+
 .nav {
     padding-top: 50px;
     margin-bottom: 50px;
@@ -12,10 +16,36 @@
     font-family: var(--tipo);
     text-transform: uppercase;
     margin-right: 1rem;
+    font-size: 12px;
     }
 
     a.activo {
     border-bottom: 2px solid;
+    }
+
+}
+
+.navegacion {
+    align-items: center;
+
+    .cabecera-titulo {
+        position: absolute;
+        max-width: 200px;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-2 {
+        display: block;
+        text-align: right;
+        margin-right: 50px;
+        padding-top: 60px;
     }
 
 }
